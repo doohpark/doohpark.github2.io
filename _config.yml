@@ -14,6 +14,11 @@ kramdown:
 
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 paginate: 10
 paginate_path: /page-:num
 
