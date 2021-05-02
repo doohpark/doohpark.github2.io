@@ -1,3 +1,3 @@
-# doohpark.github.io/_posts/post.md
+# doohpark.github.io/post.md
 
 New file
