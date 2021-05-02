@@ -1,3 +1,26 @@
+name: "Jekyll true minimal theme"
+description: "Lightweight theme"
 remote_theme: "mmistakes/minimal-mistakes"
 url: "https://doohpark.github.io"
 baseurl: ""# the subpath of your site, e.g. "/blog"
+
+markdown: kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+paginate: 10
+paginate_path: /page-:num
+
+#disqus-id: your-disqus-id
+
+source: .
+destination: ./_site
+gems: ['jekyll-paginate']
+
+sass:
+    style: :compressed
